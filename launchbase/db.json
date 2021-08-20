@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-title",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-server-2",
+      "author": "eric-david"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "Souza"
+  }
+}
