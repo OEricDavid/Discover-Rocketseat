@@ -34,3 +34,11 @@
   font: italic bold 0.8em/1.2 arial, sans-serif;
 }
 ```
+
+- desconsidera propriedades anteriores
+- valores não especificados irão assumir o valor padrão
+- geralmente a ordem descrita de cada uma dessas propriedades não importam
+
+# funções
+
+- nome da função seguido de parêntesis
