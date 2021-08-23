@@ -1,0 +1,31 @@
+<!--
+    <input type="search" />
+
+    - Para campos de busca
+    - É igual ao campo do tipo 'text' mas poderá ser um pouso diferente dependendo do user agent
+
+    # Atributos
+
+    - list/ <datalist>
+    - pattern
+    - aria-label
+
+-->
+
+<datalist id="searchterms">
+  <option value="">MAC</option>
+  <option value="">WIN</option>
+  <option value="">LINUX</option>
+</datalist>
+
+<form>
+  <label for="">Pesquisar pelo ID</label>
+  <input
+    type="search"
+    name="id"
+    size="5"
+    pattern="[0-9]{2}"
+    title="Digite o numero do ID: 99"
+  />
+  <button>Pesquisar</button>
+</form>
