@@ -24,6 +24,6 @@ function print() {
 
 const input = document.querySelector("input");
 
-input.onkeyup = function (event) {
-  console.log(event.currentTarget);
+input.onkeydown = function (event) {
+  console.log(event);
 };
